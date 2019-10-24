@@ -1,0 +1,40 @@
+/* Adding !important forces the browser to overwrite the default */
+body
+{
+  background: #212529 !important;
+}
+
+.msg
+{
+ position: relative;
+ padding: .5rem 1rem;
+ margin-bottom: 1rem;
+ border: 1px solid transparent;
+ border-radius: .25rem;
+ max-width: 60%;
+}
+
+.qrfield
+{
+ background: white;
+ border-radius: 0.5rem;
+ margin-bottom: 1rem;
+}
+
+.qrfield-dark
+{
+ background: #212529;
+ border-radius: 0.5rem;
+ margin-bottom: 1rem;
+}
+
+.chat
+{
+ width: 600px;
+ height: 500px;
+}
+
+.file-selector
+{
+  margin-bottom: 0px;
+}
